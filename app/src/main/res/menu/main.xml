@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:icon="@drawable/ic_menu"
+        android:title="menu"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/homeMenu"
+                android:title="HOME" />
+            <item
+                android:id="@+id/tendenciaMenu"
+                android:title="TENDENCIAS" />
+            <item
+                android:id="@+id/blogMenu"
+                android:title="BLOG" />
+            <item
+                android:id="@+id/refreshMenu"
+                android:title="REFRESH" />
+        </menu>
+    </item>
+</menu>
